@@ -1,0 +1,11 @@
+.resixe{
+    width: 300px;
+    height: 200px;
+    background-color: aquamarine;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+    font-size: 2rem;
+    resize: both;
+
+}

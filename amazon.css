@@ -1,0 +1,354 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    height: 60px;
+    background-color: #0F1111;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.nav-logo {
+    height: 50px;
+    width: 120px;
+}
+
+.logo {
+    background-image: url("amazon_logo.png");
+    height: 50px;
+    cursor: pointer;
+    background-size: cover;
+    width: 100%;
+}
+
+.border {
+
+    border: 2px solid transparent;
+}
+
+.border:hover {
+    border: 1px solid #fff;
+}
+
+/* navaddress box 2  */
+
+.nav-address{
+    padding: 9px 10px;
+}
+.deliver {
+    cursor: pointer;
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+
+.india {
+    cursor: pointer;
+    font-size: 1rem;
+    margin-left: 3px;
+}
+
+.address-icon {
+    display: flex;
+    align-items: center;
+}
+
+/* searchbox box 3  */
+
+.nav-srch {
+    /* background-color: aqua; */
+    display: flex;
+    width: 620px;
+    justify-content: space-evenly;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.srch-select {
+    cursor: pointer;
+    text-align: center;
+    background-color: #f3f3f3;
+    width: 50px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+    outline: none;
+}
+
+.srch-inp {
+    font-size: 1rem;
+    width: 100%;
+    border: none;
+    outline: none;
+}
+
+.srch-icon {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    color: #0F1111;
+    font-size: 1.2rem;
+    background-color: rgb(232, 168, 17);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border: none;
+}
+
+.nav-srch:hover {
+    border: 2px solid orange;
+}
+
+.nav-flag {
+    cursor: pointer;
+    height: 35px;
+    width: 32px;
+    display: flex;
+    padding: 9px 10px;
+    align-items: center;
+}
+
+.flag {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/b/bc/Flag_of_India.png");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 15px;
+}
+
+/* box 4  */
+.nav-signin{
+    cursor: pointer;
+    padding: 9px 10px;
+}
+.nav-signin span {
+    font-size: 0.7rem;
+    
+}
+.nav-return{
+    cursor: pointer;
+    padding: 9px 10px;
+}
+.nav-second {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* box 5 */
+.nav-cart i {
+    font-size: 30px;
+}
+
+.nav-cart {
+    cursor: pointer;
+    padding: 9px 10px;
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+
+/* pannel  */
+
+.pannel {
+    display: flex;
+    color: #fff;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #222f3d;
+    height: 40px;
+}
+
+.pannel-all {
+    cursor: pointer;
+    padding: 8px 9px;
+}
+
+.pannel-ops {
+    width: 70%;
+    font-size: 0.85rem;
+}
+
+.pannel-ops p {
+    cursor: pointer;
+    padding: 8px 9px;
+    margin-left: 15px;
+    display: inline;
+}
+
+.pannel-deals {
+    cursor: pointer;
+    padding: 8px 9px;
+    font-size: 0.95rem;
+    font-weight: 700;
+}
+
+/* hero section  */
+.hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 400px;
+    background-image: url("61lwJy4B8PL._SX3000_.jpg");
+    background-size: cover;
+    background-position: top;
+}
+
+.hero-msg {
+    background-color: #fff;
+    color: #000;
+    height: 40px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    margin-bottom: 25px;
+}
+
+.hero-msg a {
+    text-decoration: none;
+    color: #007185;
+}
+.hero-msg a:hover{
+    text-decoration: 1px solid red underline;
+    color: red;
+}
+
+/* shop section  */
+
+.shop-sec {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+
+.box {
+    background-color: #fff;
+    width: 22%;
+    height: 400px;
+    padding: 20px 0 15px;
+    margin-top: 15px;
+}
+
+.box-image {
+    height: 300px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 1rem 0;
+}
+
+.boxcontent {
+    margin: 0 1rem;
+}
+
+.boxcontent p {
+    color: #007185;
+    cursor: pointer;
+}
+.boxcontent p:hover{
+    color: red;
+}
+
+/* footer  */
+footer {
+    margin-top: 15px;
+}
+
+.foot-pannel1 {
+    background-color: #37475a;
+    color: #fff;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+}
+
+.foot-pannel2 {
+    display: flex;
+    background-color: #222f3d;
+    color: #fff;
+    justify-content: space-evenly;
+    height: 400px;
+}
+ul p{
+    font-weight: bold;
+}
+ul{
+    margin-top: 50px;
+}
+
+ul a {
+    margin-top: 15px;
+    font-size: 0.85rem;
+    display: block;
+    text-decoration: none;
+    color: #dddddd;
+}
+ul a:hover{
+    text-decoration:  1px solid #fff underline;
+}
+
+/* foot pannel 3  */
+
+.foot-pannel3{
+    background-color:#222f3d;
+    border-top: 0.5px solid #fff;
+    height: 68px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pannel3-logo{
+    background-image: url("amazon_logo.png");
+    height: 50px;
+    width: 100px;
+    background-size: cover;
+}
+.languages a{
+    text-decoration: none;
+    color: #dddddd;
+    padding: 6px 18px 6px 8px;
+    font-size: 0.85rem;
+    margin: 0 5px;
+    border: 2px solid #37475a;
+    border-radius: 4px;
+}
+.languages a i{
+    margin: 0 5px;
+}
+.languages span{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.footpannel4{
+    background-color: #0F1111;
+    height: 76px;
+    color: #fff;
+    font-size: 0.7rem;
+    text-align: center;
+}
+
+.pages{
+   
+    padding-top: 25px;
+}
+.copyright{
+    padding-top: 5px;
+}
+.footpannel4 a{
+    text-decoration: none;
+    color: #fff;
+    padding: 0 7.2px;
+}
